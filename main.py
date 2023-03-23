@@ -3,7 +3,8 @@ import pytest
 
 def always_returns_true():
     # this time i added a comment
-    return True 
+    x = None
+    return x 
 
 
 def test_always_returns_true():
