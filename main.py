@@ -3,7 +3,7 @@ import pytest
 
 def always_returns_true():
     # it should have been True
-    y = True
+    y = 100 + 20
     return y
 
 
