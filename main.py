@@ -2,7 +2,8 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    # this time i added a comment
+    return True 
 
 
 def test_always_returns_true():
